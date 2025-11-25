@@ -15,6 +15,169 @@
     <title>Portfolio</title>
   </head>
   <body>
+    <!-- navbar starts -->
+    <div class="navbar">
+      <nav
+        class="bg-neutral-primary w-full z-20 top-0 start-0 border-b border-default"
+      >
+        <div
+          class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+        >
+          <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img
+              src="https://flowbite.com/docs/images/logo.svg"
+              class="h-7"
+              alt="Flowbite Logo"
+            />
+            <span
+              class="self-center text-xl text-heading font-semibold whitespace-nowrap"
+              >Saiful</span
+            >
+          </a>
+          <div class="flex items-center md:order-2">
+            <button
+              type="button"
+              data-collapse-toggle="navbar-search"
+              aria-controls="navbar-search"
+              aria-expanded="false"
+              class="flex items-center justify-center md:hidden text-body hover:text-heading bg-transparent box-border border border-transparent hover:bg-neutral-secondary-medium focus:ring-2 focus:ring-neutral-tertiary font-medium leading-5 rounded-base text-sm w-10 h-10 focus:outline-none"
+            >
+              <svg
+                class="w-6 h-6"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="none"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-width="2"
+                  d="m21 21-3.5-3.5M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"
+                />
+              </svg>
+              <span class="sr-only">Search</span>
+            </button>
+            <label for="input-group-1" class="sr-only">Your Email</label>
+            <div class="relative hidden md:block">
+              <div
+                class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none"
+              >
+                <svg
+                  class="w-4 h-4 text-body"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-width="2"
+                    d="m21 21-3.5-3.5M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"
+                  />
+                </svg>
+              </div>
+              <input
+                type="text"
+                id="input-group-1"
+                class="block w-full ps-9 pe-3 py-2.5 bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand px-2.5 py-2 shadow-xs placeholder:text-body"
+                placeholder="Search"
+              />
+            </div>
+            <button
+              data-collapse-toggle="navbar-search"
+              type="button"
+              class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary"
+              aria-controls="navbar-search"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Open main menu</span>
+              <svg
+                class="w-6 h-6"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="none"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-width="2"
+                  d="M5 7h14M5 12h14M5 17h14"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+            id="navbar-search"
+          >
+            <div class="relative mt-3 md:hidden">
+              <div
+                class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none"
+              >
+                <svg
+                  class="w-4 h-4 text-body"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-width="2"
+                    d="m21 21-3.5-3.5M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"
+                  />
+                </svg>
+              </div>
+              <input
+                type="text"
+                id="input-group-1"
+                class="block w-full ps-9 pe-3 py-2.5 bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand px-2.5 py-2 shadow-xs placeholder:text-body"
+                placeholder="Search"
+              />
+            </div>
+            <ul
+              class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-default rounded-base bg-neutral-secondary-soft md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-neutral-primary"
+            >
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-white bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0"
+                  aria-current="page"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"
+                  >Services</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- navbar ends -->
     <!-- Intro Section Content Starts Here -->
 
     <div class="intro bg-[#F9F8F6] p-40">
@@ -32,224 +195,348 @@
     <!-- Intro Section Content Ends Here -->
 
     <!-- About Section Content Starts Here -->
-    <div class="about p-10-40 bg-[#EFE9E3]"></div>
+    <div class="about p-10-40 bg-white">
+      <section class="p-40">
+        <div
+          class="w-full md:w-1/2 md:mx-auto flex flex-col md:flex-row items-center justify-center text-center"
+        >
+          <img
+            class="inline-flex object-cover border-4 border-indigo-600 rounded-full shadow-[5px_5px_0_0_rgba(0,0,0,1)] shadow-indigo-600/100 bg-indigo-50 h-24 w-24 !h-32 !w-32 mb-4 md:mb-0 ml-0 md:mr-5"
+            src="images/hero-img.jpg"
+            alt=""
+          />
+          <div class="flex flex-col">
+            <div class="md:text-justify mb-3">
+              <div class="flex flex-col mb-5">
+                <p class="text-indigo-900 font-bold text-xl">Saiful</p>
+
+                <ul
+                  class="mt-2 flex flex-row items-center justify-center md:justify-start"
+                >
+                  <li class="mr-5">
+                    <a href="" target="_blank" aria-label="GitHub">
+                      <svg
+                        class="h-6 text-indigo-700 hover:text-indigo-300"
+                        fill="currentColor"
+                        role="img"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <title>GitHub</title>
+                        <path
+                          d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                        ></path>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="" target="_blank" aria-label="Twitter">
+                      <svg
+                        class="h-6 text-indigo-700 hover:text-indigo-300"
+                        fill="currentColor"
+                        role="img"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <title>Twitter</title>
+                        <path
+                          d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
+                        ></path>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <p class="text-indigo-300 font-semibold text-center md:text-left">
+                Web Developer &amp; Designer
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
     <!-- About Section Content Ends Here -->
 
     <!-- Skills Section Content Starts Here -->
-    <div class="skills p-10,40 bg-[#D9CFC7]">
-      <div class="py-24 sm:py-32">
-        <div class="mx-auto max-w-7xl px-6 lg:px-8">
-          <h2 class="text-center text-lg/8 font-semibold text-gray-900">
-            My Skills
+    <div class="skills bg-[#f8fbfd]">
+      <section
+        id="features"
+        class="container mx-auto px-4 space-y-6 bg-slate-50 py-8 md:py-12 lg:py-20"
+      >
+        <div
+          class="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center"
+        >
+          <h2 class="font-bold text-3xl leading-[1.1] sm:text-3xl md:text-6xl">
+            Skillls & Technologies
           </h2>
-          <div
-            class="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5"
+
+          <p
+            class="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7"
           >
-            <img
-              width="158"
-              height="48"
-              src="images/php-img.png"
-              alt="Transistor"
-              class="col-span-2 max-h-full w-full object-contain lg:col-span-1"
-            />
-            <img
-              width="158"
-              height="48"
-              src="images/tailwind-img.png"
-              alt="Reform"
-              class="col-span-2 max-h-full w-full object-contain lg:col-span-1"
-            />
-            <img
-              width="158"
-              height="48"
-              src="images/React-logo.png"
-              alt="Tuple"
-              class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-            />
-            <img
-              width="158"
-              height="48"
-              src="images/nodejs-logo.png"
-              alt="SavvyCal"
-              class="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-            />
-            <img
-              width="158"
-              height="48"
-              src="images/Ubuntu.svg"
-              alt="Statamic"
-              class="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-            />
+            Here are some of the technologies and tools I work with to build
+            amazing web applications.
+          </p>
+        </div>
+
+        <div
+          class="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3"
+        >
+          <div
+            class="relative overflow-hidden rounded-lg border bg-white select-none hover:shadow hover:shadow-teal-200 p-2"
+          >
+            <div class="flex h-[180px] flex-col justify-between rounded-md p-6">
+              <svg viewBox="0 0 24 24" class="h-12 w-12 fill-current">
+                <path
+                  d="M11.572 0c-.176 0-.31.001-.358.007a19.76 19.76 0 0 1-.364.033C7.443.346 4.25 2.185 2.228 5.012a11.875 11.875 0 0 0-2.119 5.243c-.096.659-.108.854-.108 1.747s.012 1.089.108 1.748c.652 4.506 3.86 8.292 8.209 9.695.779.25 1.6.422 2.534.525.363.04 1.935.04 2.299 0 1.611-.178 2.977-.577 4.323-1.264.207-.106.247-.134.219-.158-.02-.013-.9-1.193-1.955-2.62l-1.919-2.592-2.404-3.558a338.739 338.739 0 0 0-2.422-3.556c-.009-.002-.018 1.579-.023 3.51-.007 3.38-.01 3.515-.052 3.595a.426.426 0 0 1-.206.214c-.075.037-.14.044-.495.044H7.81l-.108-.068a.438.438 0 0 1-.157-.171l-.05-.106.006-4.703.007-4.705.072-.092a.645.645 0 0 1 .174-.143c.096-.047.134-.051.54-.051.478 0 .558.018.682.154.035.038 1.337 1.999 2.895 4.361a10760.433 10760.433 0 0 0 4.735 7.17l1.9 2.879.096-.063a12.317 12.317 0 0 0 2.466-2.163 11.944 11.944 0 0 0 2.824-6.134c.096-.66.108-.854.108-1.748 0-.893-.012-1.088-.108-1.747-.652-4.506-3.859-8.292-8.208-9.695a12.597 12.597 0 0 0-2.499-.523A33.119 33.119 0 0 0 11.573 0zm4.069 7.217c.347 0 .408.005.486.047a.473.473 0 0 1 .237.277c.018.06.023 1.365.018 4.304l-.006 4.218-.744-1.14-.746-1.14v-3.066c0-1.982.01-3.097.023-3.15a.478.478 0 0 1 .233-.296c.096-.05.13-.054.5-.054z"
+                ></path>
+              </svg>
+              <div class="space-y-2">
+                <h3 class="font-bold">Next.js 13</h3>
+                <p class="text-sm text-muted-foreground">
+                  App dir, Routing, Layouts, Loading UI and API routes.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="relative overflow-hidden rounded-lg border bg-white select-none hover:shadow hover:shadow-teal-200 p-2"
+          >
+            <div class="flex h-[180px] flex-col justify-between rounded-md p-6">
+              <svg viewBox="0 0 24 24" class="h-12 w-12 fill-current">
+                <path
+                  d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236 2.236 2.236 0 0 1-2.236-2.236 2.236 2.236 0 0 1 2.235-2.236 2.236 2.236 0 0 1 2.236 2.236zm2.648-10.69c-1.346 0-3.107.96-4.888 2.622-1.78-1.653-3.542-2.602-4.887-2.602-.41 0-.783.093-1.106.278-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03-.704 3.113-.39 5.588.988 6.38.32.187.69.275 1.102.275 1.345 0 3.107-.96 4.888-2.624 1.78 1.654 3.542 2.603 4.887 2.603.41 0 .783-.09 1.106-.275 1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032.704-3.11.39-5.587-.988-6.38a2.167 2.167 0 0 0-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127.666.382.955 1.835.73 3.704-.054.46-.142.945-.25 1.44a23.476 23.476 0 0 0-3.107-.534A23.892 23.892 0 0 0 12.769 4.7c1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28-.686.72-1.37 1.537-2.02 2.442a22.73 22.73 0 0 0-3.113.538 15.02 15.02 0 0 1-.254-1.42c-.23-1.868.054-3.32.714-3.707.19-.09.4-.127.563-.132zm4.882 3.05c.455.468.91.992 1.36 1.564-.44-.02-.89-.034-1.345-.034-.46 0-.915.01-1.36.034.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093.406.582.802 1.203 1.183 1.86.372.64.71 1.29 1.018 1.946-.308.655-.646 1.31-1.013 1.95-.38.66-.773 1.288-1.18 1.87a25.64 25.64 0 0 1-4.412.005 26.64 26.64 0 0 1-1.183-1.86c-.372-.64-.71-1.29-1.018-1.946a25.17 25.17 0 0 1 1.013-1.954c.38-.66.773-1.286 1.18-1.868A25.245 25.245 0 0 1 12 8.098zm-3.635.254c-.24.377-.48.763-.704 1.16-.225.39-.435.782-.635 1.174-.265-.656-.49-1.31-.676-1.947.64-.15 1.315-.283 2.015-.386zm7.26 0c.695.103 1.365.23 2.006.387-.18.632-.405 1.282-.66 1.933a25.952 25.952 0 0 0-1.345-2.32zm3.063.675c.484.15.944.317 1.375.498 1.732.74 2.852 1.708 2.852 2.476-.005.768-1.125 1.74-2.857 2.475-.42.18-.88.342-1.355.493a23.966 23.966 0 0 0-1.1-2.98c.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98a23.142 23.142 0 0 0-1.086 2.964c-.484-.15-.944-.318-1.37-.5-1.732-.737-2.852-1.706-2.852-2.474 0-.768 1.12-1.742 2.852-2.476.42-.18.88-.342 1.356-.494zm11.678 4.28c.265.657.49 1.312.676 1.948-.64.157-1.316.29-2.016.39a25.819 25.819 0 0 0 1.341-2.338zm-9.945.02c.2.392.41.783.64 1.175.23.39.465.772.705 1.143a22.005 22.005 0 0 1-2.006-.386c.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423.23 1.868-.054 3.32-.714 3.708-.147.09-.338.128-.563.128-1.012 0-2.514-.807-4.11-2.28.686-.72 1.37-1.536 2.02-2.44 1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532.66.905 1.345 1.727 2.035 2.446-1.595 1.483-3.092 2.295-4.11 2.295a1.185 1.185 0 0 1-.553-.132c-.666-.38-.955-1.834-.73-3.703.054-.46.142-.944.25-1.438zm4.56.64c.44.02.89.034 1.345.034.46 0 .915-.01 1.36-.034-.44.572-.895 1.095-1.345 1.565-.455-.47-.91-.993-1.36-1.565z"
+                ></path>
+              </svg>
+              <div class="space-y-2">
+                <h3 class="font-bold">React 18</h3>
+                <p class="text-sm">Server and Client Components. Use hook.</p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="relative overflow-hidden rounded-lg border bg-white select-none hover:shadow hover:shadow-teal-200 p-2"
+          >
+            <div class="flex h-[180px] flex-col justify-between rounded-md p-6">
+              <svg viewBox="0 0 24 24" class="h-12 w-12 fill-current">
+                <path
+                  d="M0 12C0 5.373 5.373 0 12 0c4.873 0 9.067 2.904 10.947 7.077l-15.87 15.87a11.981 11.981 0 0 1-1.935-1.099L14.99 12H12l-8.485 8.485A11.962 11.962 0 0 1 0 12Zm12.004 12L24 12.004C23.998 18.628 18.628 23.998 12.004 24Z"
+                ></path>
+              </svg>
+              <div class="space-y-2">
+                <h3 class="font-bold">Database</h3>
+                <p class="text-sm text-muted-foreground">
+                  ORM using Prisma and deployed on PlanetScale.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="relative overflow-hidden rounded-lg border bg-white select-none hover:shadow hover:shadow-teal-200 p-2"
+          >
+            <div class="flex h-[180px] flex-col justify-between rounded-md p-6">
+              <svg viewBox="0 0 24 24" class="h-12 w-12 fill-current">
+                <path
+                  d="M12.001 4.8c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12c3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12.001 4.8zm-6 7.2c-3.2 0-5.2 1.6-6 4.8 1.2-1.6 2.6-2.2 4.2-1.8.913.228 1.565.89 2.288 1.624 1.177 1.194 2.538 2.576 5.512 2.576 3.2 0 5.2-1.6 6-4.8-1.2 1.6-2.6 2.2-4.2 1.8-.913-.228-1.565-.89-2.288-1.624C10.337 13.382 8.976 12 6.001 12z"
+                ></path>
+              </svg>
+              <div class="space-y-2">
+                <h3 class="font-bold">Components</h3>
+                <p class="text-sm text-muted-foreground">
+                  UI components built using Radix UI and styled with Tailwind
+                  CSS.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="relative overflow-hidden rounded-lg border bg-white select-none hover:shadow hover:shadow-teal-200 p-2"
+          >
+            <div class="flex h-[180px] flex-col justify-between rounded-md p-6">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1"
+                class="h-12 w-12 fill-current"
+              >
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+              <div class="space-y-2">
+                <h3 class="font-bold">Authentication</h3>
+                <p class="text-sm text-muted-foreground">
+                  Authentication using NextAuth.js and middlewares.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="relative overflow-hidden rounded-lg border bg-white select-none hover:shadow hover:shadow-teal-200 p-2"
+          >
+            <div class="flex h-[180px] flex-col justify-between rounded-md p-6">
+              <svg viewBox="0 0 24 24" class="h-12 w-12 fill-current">
+                <path
+                  d="M13.976 9.15c-2.172-.806-3.356-1.426-3.356-2.409 0-.831.683-1.305 1.901-1.305 2.227 0 4.515.858 6.09 1.631l.89-5.494C18.252.975 15.697 0 12.165 0 9.667 0 7.589.654 6.104 1.872 4.56 3.147 3.757 4.992 3.757 7.218c0 4.039 2.467 5.76 6.476 7.219 2.585.92 3.445 1.574 3.445 2.583 0 .98-.84 1.545-2.354 1.545-1.875 0-4.965-.921-6.99-2.109l-.9 5.555C5.175 22.99 8.385 24 11.714 24c2.641 0 4.843-.624 6.328-1.813 1.664-1.305 2.525-3.236 2.525-5.732 0-4.128-2.524-5.851-6.594-7.305h.003z"
+                ></path>
+              </svg>
+              <div class="space-y-2">
+                <h3 class="font-bold">Subscriptions</h3>
+                <p class="text-sm text-muted-foreground">
+                  Free and paid subscriptions using Stripe.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
     <!-- Skills Section Content Ends Here -->
 
     <!-- Projects Section Content Starts Here -->
-    <div class="projects p-40 bg-[#D9D9D9]">
-      <h2 class="text-center text-lg/8 font-semibold text-gray-900">
-        My Projects
-      </h2>
-      <div class="flex flex-wrap justify-center mt-10">
-        <!-- card 1 -->
-        <div class="p-4 max-w-sm">
-          <div
-            class="flex rounded-lg h-full dark:bg-gray-800 bg-teal-400 p-8 flex-col"
-          >
-            <div class="flex items-center mb-3">
-              <div
-                class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full dark:bg-indigo-500 bg-indigo-500 text-white flex-shrink-0"
-              >
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-5 h-5"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                </svg>
-              </div>
-              <h2 class="text-white dark:text-white text-lg font-medium">
-                Feature 1
-              </h2>
-            </div>
-            <div class="flex flex-col justify-between flex-grow">
-              <p
-                class="leading-relaxed text-base text-white dark:text-gray-300"
-              >
-                Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                taxidermy. Gastropub indxgo juice poutine.
-              </p>
-              <a
-                href="#"
-                class="mt-3 text-black dark:text-white hover:text-blue-600 inline-flex items-center"
-                >Learn More
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
-                </svg>
-              </a>
-            </div>
+    <div class="projects p-10-40 bg-[#D9D9D9]">
+      <section class="bg-white dark:bg-gray-900 antialiased">
+        <div
+          class="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24"
+        >
+          <div class="max-w-2xl mx-auto text-center">
+            <h2
+              class="text-3xl font-extrabold leading-tight tracking-tight text-gray-900 sm:text-4xl dark:text-white"
+            >
+              My Projects
+            </h2>
+            <p
+              class="mt-4 text-base font-normal text-gray-500 sm:text-xl dark:text-gray-400"
+            >
+              Crafted with skill and care to help my clients grow their
+              business!
+            </p>
           </div>
-        </div>
 
-        <!-- card 2 -->
-        <div class="p-4 max-w-sm">
           <div
-            class="flex rounded-lg h-full dark:bg-gray-800 bg-teal-400 p-8 flex-col"
+            class="grid grid-cols-1 mt-12 text-center sm:mt-16 gap-x-20 gap-y-12 sm:grid-cols-2 lg:grid-cols-3"
           >
-            <div class="flex items-center mb-3">
-              <div
-                class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full dark:bg-indigo-500 bg-indigo-500 text-white flex-shrink-0"
+            <div class="space-y-4">
+              <span
+                class="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300"
               >
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-5 h-5"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                </svg>
-              </div>
-              <h2 class="text-white dark:text-white text-lg font-medium">
-                Feature 2
-              </h2>
-            </div>
-            <div class="flex flex-col justify-between flex-grow">
-              <p
-                class="leading-relaxed text-base text-white dark:text-gray-300"
+                Alphabet Inc.
+              </span>
+              <h3
+                class="text-2xl font-bold leading-tight text-gray-900 dark:text-white"
               >
-                Lorem ipsum dolor sit amet. In quos laboriosam non neque eveniet
-                33 nihil molestias. Rem perspiciatis iure ut laborum inventore
-                et maxime amet.
+                Official website
+              </h3>
+              <p class="text-lg font-normal text-gray-500 dark:text-gray-400">
+                Flowbite helps you connect with friends, family and communities
+                of people who share your interests.
               </p>
               <a
                 href="#"
-                class="mt-3 text-black dark:text-white hover:text-blue-600 inline-flex items-center"
-                >Learn More
+                title=""
+                class="text-white bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+                role="button"
+              >
+                View case study
                 <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  class="w-5 h-5 ml-2 -mr-1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
                 >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  <path
+                    fill-rule="evenodd"
+                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd"
+                  />
                 </svg>
               </a>
             </div>
-          </div>
-        </div>
 
-        <!-- card 3 -->
-        <div class="p-4 max-w-sm">
-          <div
-            class="flex rounded-lg h-full dark:bg-gray-800 bg-teal-400 p-8 flex-col"
-          >
-            <div class="flex items-center mb-3">
-              <div
-                class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full dark:bg-indigo-500 bg-indigo-500 text-white flex-shrink-0"
+            <div class="space-y-4">
+              <span
+                class="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300"
               >
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-5 h-5"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                </svg>
-              </div>
-              <h2 class="text-white dark:text-white text-lg font-medium">
-                Feature 3
-              </h2>
-            </div>
-            <div class="flex flex-col justify-between flex-grow">
-              <p
-                class="leading-relaxed text-base text-white dark:text-gray-300"
+                Microsoft Corp.
+              </span>
+              <h3
+                class="text-2xl font-bold leading-tight text-gray-900 dark:text-white"
               >
-                Lorem ipsum dolor sit amet. In quos laboriosam non neque eveniet
-                33 nihil molestias. Rem perspiciatis iure ut laborum inventore
-                et maxime amet.
+                Management system
+              </h3>
+              <p class="text-lg font-normal text-gray-500 dark:text-gray-400">
+                Flowbite helps you connect with friends, family and communities
+                of people who share your interests.
               </p>
               <a
                 href="#"
-                class="mt-3 text-black dark:text-white hover:text-blue-600 inline-flex items-center"
-                >Learn More
+                title=""
+                class="text-white bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+                role="button"
+              >
+                View case study
                 <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  class="w-5 h-5 ml-2 -mr-1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
                 >
-                  <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  <path
+                    fill-rule="evenodd"
+                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </a>
+            </div>
+
+            <div class="space-y-4">
+              <span
+                class="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300"
+              >
+                Adobe Inc.
+              </span>
+              <h3
+                class="text-2xl font-bold leading-tight text-gray-900 dark:text-white"
+              >
+                Logo design
+              </h3>
+              <p class="text-lg font-normal text-gray-500 dark:text-gray-400">
+                Flowbite helps you connect with friends, family and communities
+                of people who share your interests.
+              </p>
+              <a
+                href="#"
+                title=""
+                class="text-white bg-primary-700 justify-center hover:bg-primary-800 inline-flex items-center focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+                role="button"
+              >
+                View case study
+                <svg
+                  aria-hidden="true"
+                  class="w-5 h-5 ml-2 -mr-1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd"
+                  />
                 </svg>
               </a>
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
     <!-- Projects Section Content Ends Here -->
     <!-- Contact Section Content Starts Here -->
@@ -285,8 +572,8 @@
                 </div>
                 <a href="javascript:void(0)" class="text-sm ml-4">
                   <small class="block text-slate-900">Mail</small>
-                  <spane class="font-semibold text-blue-600"
-                    >info@example.com</spane
+                  <span class="font-semibold text-blue-600"
+                    >mdsaifulislam22203@gmail.com</span
                   >
                 </a>
               </li>
@@ -460,7 +747,7 @@
             <hr class="my-6 border-default sm:mx-auto lg:my-8" />
             <div class="sm:flex sm:items-center sm:justify-between">
               <span class="text-sm text-body sm:text-center"
-                >© 2023
+                >© 2025
                 <a href="https://saiful.com/" class="hover:underline">Saiful™</a
                 >. All Rights Reserved.
               </span>
